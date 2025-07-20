@@ -420,6 +420,13 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.1.12f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.1.12f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.1.12f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Scripts/CameraFollow.cs"
+"Assets/Scripts/ChairObstacle.cs"
+"Assets/Scripts/CrowdObstacle.cs"
+"Assets/Scripts/DeskObstacle.cs"
+"Assets/Scripts/MiddleSchoolBoyBuilder.cs"
+"Assets/Scripts/ObstacleSpawner.cs"
+"Assets/Scripts/PlayerController.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic

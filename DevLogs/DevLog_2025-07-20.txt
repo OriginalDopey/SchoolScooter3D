@@ -1,0 +1,35 @@
+# Development Log - July 20, 2025
+
+## Summary
+- Set up obstacle spawning system that spawns obstacles ahead of the player as they move forward.
+- Fixed input system errors by updating PlayerController to use Unity's Input System.
+- Created a script to visually build a middle school boy character using Unity primitives (capsule, sphere, cylinders).
+- Added debug logging to ObstacleSpawner for troubleshooting.
+- Provided step-by-step instructions for Unity Inspector setup.
+
+## Instructions to Recreate
+1. **Obstacle Spawner**
+   - Attach `ObstacleSpawner.cs` to an empty GameObject.
+   - Assign obstacle prefabs (desk, chair, crowd) to the `obstaclePrefabs` array in the Inspector.
+   - Assign the player GameObject to the `player` field.
+   - Adjust `spawnInterval` for spawn frequency.
+
+2. **Player Controller**
+   - Attach `PlayerController.cs` to the player GameObject.
+   - Ensure movement uses the Input System (arrow keys).
+
+3. **Middle School Boy Model**
+   - Attach `MiddleSchoolBoyBuilder.cs` to the player GameObject (Capsule).
+   - The script will build the head, arms, legs, and backpack automatically.
+
+4. **Debugging**
+   - Check the Unity Console for debug messages from ObstacleSpawner.
+   - If obstacles do not spawn, verify prefabs and player are assigned in the Inspector.
+
+## Next Steps
+- Add running animation to the player.
+- Implement collectibles and scoring.
+- Polish obstacle visuals and add more variety.
+- Save and commit all changes to git.
+
+---
