@@ -1,0 +1,19 @@
+# DevLog Entry - July 20, 2025 (Session 3)
+
+## Goal
+Refine the player character to look like a boy riding a scooter, kicking his leg for momentum, with a navy blue shirt and khaki pants. Target: production-ready, visually appealing model.
+
+## Plan
+- Replace the simple primitive-based character with a more detailed, stylized boy model.
+- Add a scooter model (handlebars, deck, wheels) using Unity primitives.
+- Animate the character: one leg on the scooter, the other kicking for momentum.
+- Use navy blue for the shirt and khaki for the pants.
+- Ensure proportions, colors, and pose are realistic and visually polished.
+- Document all steps and code for reproducibility.
+
+## Next Steps
+1. Create a new script to build the refined character and scooter.
+2. Add animation logic for the kicking leg.
+3. Polish materials and proportions for a production-ready look.
+4. Test in Unity and iterate for realism.
+5. Log all changes and commit to git.
