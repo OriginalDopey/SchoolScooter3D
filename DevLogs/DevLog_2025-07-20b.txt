@@ -1,0 +1,12 @@
+# DevLog Entry - July 20, 2025 (PM)
+
+## Topic: iOS Release Planning
+
+- Confirmed that the current Unity design pattern (primitives, scripts, Input System) is compatible with iOS and Apple App Store requirements.
+- No major code changes are needed for iOS export; Unity supports building for iOS out of the box.
+- Recommended workflow: Build and polish the game first, then add iOS-specific features (touch controls, icons, privacy, etc.) before release.
+- It is perfectly fine to wait until the platform is feature-complete before making iOS-specific modifications.
+- Next steps for iOS: Switch build target to iOS, add touch controls, follow Apple submission guidelines when ready.
+
+## Action
+- Saved this planning note for future reference.
